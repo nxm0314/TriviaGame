@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>90's Cartoon Trivia</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="Begin">Begin Trivia</div>
+            <div id="Trivia" style="display: none">
+                <div id="Questions"></div>
+                <div id="Img"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                </div>
+                <div id="Timer">
+                    <div id="counter"></div>
+                    <div id="timer"></div>
+                    <div id="clock"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
