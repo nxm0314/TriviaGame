@@ -3,29 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <title>90's Cartoon Trivia</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="container">
-            <div id="Begin">Begin Trivia</div>
-            <div id="Trivia" style="display: none">
-                <div id="Questions"></div>
-                <div id="Img"></div>
-                <div id="choices">
-                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-                </div>
-                <div id="Timer">
-                    <div id="counter"></div>
-                    <div id="timer"></div>
-                    <div id="clock"></div>
-                </div>
-                <div id="progress"></div>
-            </div>
-            <div id="scoreContainer" style="display: none"></div>
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<h1>90's cartoon Trivia</h1>
+    <h2>This Trivia is about 90's Cartoon. Let see how well you can remember them! Read the question and click on the answer when the box outline Green: Congratulation! you have a great memory. When you guess the question wrong: Sorry, you gonna need to work on your memory. </h2>
+    
+    <img src="assets/images/90 cartoon.jpg" alt="Cartoon Shows" width="400px" height="300px">
+    <img src="assets/images/animaniacs.gif" alt="Warner Brothers">
+    
+    <div id="wrapper">
+		
+		<div class="question" id="q1">
+			<p>1. What tv show was aired between 1995-1998 on Kids WB?</p>
+			<p class="ans correct">a)Animaniacs</p>
+			<p class="ans">b)Johnny Bravo</p>
+			<p class="ans">c)CatDog</p>
+			<p class="ans">d)Shaolin Showdown</p>
+		</div>
+		<div class="question" id="q2">
+			<p>2. What tv show was the character Spinelli in?</p>
+			<p class="ans">a)Doug</p>
+			<p class="ans">b)The Crypt Keeper</p>
+			<p class="ans correct">c)Recess</p>
+			<p class="ans">d)Twilight Zone</p>
         </div>
-        <script src="app.js"></script>
-    </body>
+        
+        <div class="question" id=q3>
+            <p>3. What cartoon show has a talking mystery solving dog?</p>
+            <p class="ans">a) The Jetson</p>
+            <p class="ans correct">b)Scooby Doo</p>
+            <p class="ans">c)Courage the Cowardly Dog</p>
+            <p class="ans">d) Pinky and the Brain</p>
+        </div>
+	</div>
+    
+
+	<script src="assets/javascript/app.js"></script>
+</body>
+
 </html>

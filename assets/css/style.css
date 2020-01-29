@@ -1,0 +1,59 @@
+h1 {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    }
+
+h2 {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+    
+        
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    background-color: black;
+    }
+
+#wrapper {
+    width: 80%;
+    padding: 1%;
+    margin: 1em auto;
+    border: solid 1px silver;
+    color: white;
+}
+		
+.question p:first-child {
+    font-weight: bold;
+}
+
+	
+.ans {
+	margin-left: 10px;
+}
+
+.right {
+    display: block;
+    border: solid 1px green;
+    padding: 10px;
+    padding-left: 60px;
+}
+
+.wrong {
+    display: block;
+	border: solid 1px red;
+	padding: 10px;
+	padding-left: 60px;
+}
+
+.ans span {
+	display: none;
+	margin-left: 20px;
+	padding-top: 0.5em;
+}
+
+.show {
+	display: block;
+}
